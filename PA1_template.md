@@ -7,11 +7,11 @@ Load data into `data` variable and load `dplyr`, `lubridate`, `ggplot2` librarie
 
 
 ```r
-library(dplyr)
-library(lubridate)
-library(ggplot2)
-data <- read.csv("activity.csv")
-data <- mutate(data, date = ymd(date))
+library(dplyr) 
+library(lubridate) 
+library(ggplot2) 
+data <- read.csv("activity.csv") 
+data <- mutate(data, date = ymd(date)) 
 ```
 
 
